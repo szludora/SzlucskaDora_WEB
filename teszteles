@@ -1,0 +1,144 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "vizsgaThunder",
+    "collectionId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+    "dateExported": "2024-05-21T14:29:10.602Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "e056db5e-5a64-4141-9212-a17f40c3c121",
+            "name": "get",
+            "containerId": "",
+            "created": "2024-05-21T14:25:13.344Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "dcb5611d-e992-461e-bc36-58cdc10f5223",
+            "name": "del",
+            "containerId": "",
+            "created": "2024-05-21T14:26:01.510Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "e590c051-95c0-45f2-8182-f974f94f7dc3",
+            "name": "put",
+            "containerId": "",
+            "created": "2024-05-21T14:26:44.706Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "013fb612-4a52-40f0-9bac-5c7d4abc0f23",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "e056db5e-5a64-4141-9212-a17f40c3c121",
+            "name": "szavak",
+            "url": "/szavak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T14:24:29.989Z",
+            "modified": "2024-05-21T14:24:45.083Z",
+            "headers": []
+        },
+        {
+            "_id": "754c1159-c09d-453b-916a-df2bae52a576",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "e056db5e-5a64-4141-9212-a17f40c3c121",
+            "name": "temak",
+            "url": "/temak",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T14:24:32.979Z",
+            "modified": "2024-05-21T14:24:59.438Z",
+            "headers": []
+        },
+        {
+            "_id": "9abe1a07-05c0-4d7e-8934-918905144086",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "e056db5e-5a64-4141-9212-a17f40c3c121",
+            "name": "egySzó",
+            "url": "/szavak/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T14:25:20.802Z",
+            "modified": "2024-05-21T14:27:10.154Z",
+            "headers": []
+        },
+        {
+            "_id": "85342a33-340c-4b33-a374-0986a3d5c322",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "dcb5611d-e992-461e-bc36-58cdc10f5223",
+            "name": "egySzó",
+            "url": "/szavak/1",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-05-21T14:26:01.512Z",
+            "modified": "2024-05-21T14:26:28.888Z",
+            "headers": []
+        },
+        {
+            "_id": "53e680de-7336-4f9e-934c-65dceff31b46",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "e590c051-95c0-45f2-8182-f974f94f7dc3",
+            "name": "egySzó",
+            "url": "/szavak/2",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-05-21T14:26:44.706Z",
+            "modified": "2024-05-21T14:28:37.140Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"angol\": \"psychology\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "aed3036d-2097-4c6a-9d42-ca0d83ab666f",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "e056db5e-5a64-4141-9212-a17f40c3c121",
+            "name": "egyTéma",
+            "url": "/temak/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T14:25:43.423Z",
+            "modified": "2024-05-21T14:27:13.822Z",
+            "headers": []
+        },
+        {
+            "_id": "9f78510c-5364-454c-8ca7-bce83c88764b",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "dcb5611d-e992-461e-bc36-58cdc10f5223",
+            "name": "egyTéma",
+            "url": "/temak/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-05-21T14:26:01.513Z",
+            "modified": "2024-05-21T14:26:36.972Z",
+            "headers": []
+        },
+        {
+            "_id": "d1ad58b4-09b2-4b86-a4c0-6a3706956513",
+            "colId": "3ac8fbad-c88c-4a13-978c-0b104145246d",
+            "containerId": "e590c051-95c0-45f2-8182-f974f94f7dc3",
+            "name": "egyTéma",
+            "url": "/temak/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-21T14:26:44.707Z",
+            "modified": "2024-05-21T14:27:48.154Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"temanev\": \"Pszichológia\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000/api"
+        }
+    },
+    "ref": "Pa0GyOrOKI31FKuELUCWvXCN-4GathUu3BKklDaRi5dxSjB82ep0qm9wR2PNMsj8kjJ8frCfbaFD7s09zyKf_g"
+}
