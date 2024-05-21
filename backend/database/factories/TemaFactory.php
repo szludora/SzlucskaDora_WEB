@@ -18,7 +18,7 @@ class TemaFactory extends Factory
     public function definition(): array
     {
         return [
-            "temanev" => fake('hu_HU')->realText(10),
+            "temanev" => fake('hu_HU')->text(10),
         ];
     }
 }

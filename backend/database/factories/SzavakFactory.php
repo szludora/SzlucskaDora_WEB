@@ -18,8 +18,8 @@ class SzavakFactory extends Factory
     public function definition(): array
     {
         return [
-            "magyar" => fake('hu_HU')->realText(),
-            "angol" => fake('en_EN')->realText(),
+            "magyar" => fake('hu_HU')->text(20),
+            "angol" => fake('en_EN')->text(20),
             "temaId" => Tema::all()->random(),
         ];
     }
